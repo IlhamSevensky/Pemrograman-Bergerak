@@ -1,7 +1,6 @@
 # Pemrograman-Bergerak
 
-<h1><b>Screenshot</b></h1>
-<br>
+<h1><b>Screenshot</b></h1><br>
 <br>
 <b>1. MyFirstExercise</b><br>
 <br>
