@@ -22,8 +22,9 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:maxLines="1"
+            android:background="@drawable/text_area_style"
             android:singleLine="true"
             android:lines="1"/>
 
@@ -37,8 +38,9 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:maxLines="1"
+            android:background="@drawable/text_area_style"
             android:singleLine="true"
             android:lines="1"/>
 
@@ -52,8 +54,9 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:maxLines="1"
+            android:background="@drawable/text_area_style"
             android:singleLine="true"
             android:lines="1"/>
 
