@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--DimensionSize-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="rv_text_margin_left">20dp</dimen>
+    <dimen name="marginProfile">20dp</dimen>
+
+    <!--TextSize-->
+    <dimen name="textEmailProfile">15sp</dimen>
+    <dimen name="detail_judul">25sp</dimen>
+    <dimen name="detail_isi">18sp</dimen>
+    <dimen name="textNameProfile">20sp</dimen>
+    <dimen name="text_nameSize">16sp</dimen>
+
+</resources>
