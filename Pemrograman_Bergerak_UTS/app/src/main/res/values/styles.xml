@@ -8,6 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+
     <style name="WhiteTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
     </style>

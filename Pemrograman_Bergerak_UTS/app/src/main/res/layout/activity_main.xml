@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_below="@id/toolbar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:fontFamily="@font/product_sans_regular"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_rv">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_regular"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="Destinasi Impian Di Dunia"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_destinasi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_row_destinasi">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

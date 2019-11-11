@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".DetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_menu_detail"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        app:titleTextColor="#fff"
+        android:theme="@style/ToolbarColoredBackArrow"
+        android:elevation="5dp"
+        app:elevation="5dp">
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/frame_Detail_Top"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar_menu_detail"
+        android:layout_height="310dp">
+
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/tv_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:fontFamily="@font/product_sans_regular"
+            tools:text="Nama Tempat"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:maxLines="2"
+            android:lines="2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:id="@+id/scrollView_description"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_bottom"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_detail_descriptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/product_sans_regular"
+            tools:text="Deskripsi Destinasi"/>
+
+    </ScrollView>
+
+
+</RelativeLayout>

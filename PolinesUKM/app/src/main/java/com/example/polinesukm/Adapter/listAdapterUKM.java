@@ -1,5 +1,6 @@
 package com.example.polinesukm.Adapter;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.polinesukm.DetailPage;
 import com.example.polinesukm.Model.ukm_polines;
 import com.example.polinesukm.R;
 
@@ -42,7 +44,7 @@ public class listAdapterUKM extends RecyclerView.Adapter<listAdapterUKM.ListView
         return new ListViewHolder(view);    }
 
     @Override
-    public void onBindViewHolder(@NonNull listAdapterUKM.ListViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final listAdapterUKM.ListViewHolder holder, int position) {
         final ukm_polines ukm = list_ukm.get(position);
         Glide.with(holder.itemView.getContext())
                 .load(ukm.getLogo_ukm())
@@ -51,7 +53,19 @@ public class listAdapterUKM extends RecyclerView.Adapter<listAdapterUKM.ListView
         holder.tvName.setText(ukm.getNama_ukm());
         holder.tvDescription.setText(ukm.getDeskripsi_ukm());
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                holder.itemView.getContext().startActivity(new Intent(holder.itemView.getContext(), DetailPage.class)
+                        .putExtra("img", ukm.getLogo_ukm())
+                        .putExtra("title", ukm.getNama_ukm())
+                        .putExtra("descriptions", ukm.getDeskripsi_ukm()));
+            }
+        });
+
     }
+
+
 
     @Override
     public int getItemCount() {

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_menu_profile"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        app:titleTextColor="#fff"
+        android:theme="@style/ToolbarColoredBackArrow"
+        android:elevation="5dp"
+        app:elevation="5dp">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_ilham"
+            app:civ_border_overlay="true"
+            app:civ_border_color="@color/colorPrimaryDark"
+            app:civ_border_width="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_name_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginProfile"
+            android:text="Ilham Budi Prasetyo"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:fontFamily="@font/product_sans_regular"
+            android:textSize="@dimen/textNameProfile"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_email_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginProfile"
+            android:text="budip.ilham@gmail.com"
+            android:fontFamily="@font/product_sans_regular"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="@dimen/textEmailProfile" />
+
+        <TextView
+            android:id="@+id/tv_nim_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginProfile"
+            android:text="3.34.18.0.12"
+            android:fontFamily="@font/product_sans_regular"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="@dimen/textEmailProfile" />
+
+        <TextView
+            android:id="@+id/tv_class_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginProfile"
+            android:text="IK-2A"
+            android:fontFamily="@font/product_sans_regular"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="@dimen/textEmailProfile" />
+
+        <TextView
+            android:id="@+id/tv_institusi_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginProfile"
+            android:text="Politeknik Negeri Semarang"
+            android:fontFamily="@font/product_sans_regular"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="@dimen/textEmailProfile" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
