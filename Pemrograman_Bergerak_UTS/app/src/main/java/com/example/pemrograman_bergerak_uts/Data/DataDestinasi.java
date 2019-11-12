@@ -1,6 +1,5 @@
 package com.example.pemrograman_bergerak_uts.Data;
 
-import android.view.Display;
 
 import com.example.pemrograman_bergerak_uts.Model.Model_Destinasi;
 
