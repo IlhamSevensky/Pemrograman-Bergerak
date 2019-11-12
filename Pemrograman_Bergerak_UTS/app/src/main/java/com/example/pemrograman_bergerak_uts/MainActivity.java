@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView rvDestinasi;
-    private Toolbar toolbar;
+    private Toolbar toolbar; //androidx toolbar
     private ArrayList<Model_Destinasi> list = new ArrayList<>();
 
     @Override

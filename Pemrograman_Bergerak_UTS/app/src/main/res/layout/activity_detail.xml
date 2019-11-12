@@ -13,7 +13,7 @@
         android:background="@color/colorPrimaryDark"
         android:layout_height="wrap_content"
         app:titleTextColor="#fff"
-        android:theme="@style/ToolbarColoredBackArrow"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:elevation="5dp"
         app:elevation="5dp">
     </androidx.appcompat.widget.Toolbar>
