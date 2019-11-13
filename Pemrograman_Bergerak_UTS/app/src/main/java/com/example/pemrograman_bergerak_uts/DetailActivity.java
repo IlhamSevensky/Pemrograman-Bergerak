@@ -12,7 +12,7 @@ import com.bumptech.glide.request.RequestOptions;
 
 public class DetailActivity extends AppCompatActivity {
 
-    Toolbar toolbar; // androix toolbar
+    Toolbar toolbar; // androidx toolbar
     ImageView imgDetail;
     TextView tvTitle, tvDescriptions;
     String title, descriptions, images;

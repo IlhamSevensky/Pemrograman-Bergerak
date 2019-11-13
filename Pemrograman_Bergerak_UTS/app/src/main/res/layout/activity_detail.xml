@@ -48,7 +48,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:minWidth="150dp"
-            android:fontFamily="@font/product_sans_regular"
             tools:text="Nama Tempat"
             android:gravity="center"
             android:textStyle="bold"
@@ -79,7 +78,6 @@
             android:layout_marginTop="5dp"
             android:textSize="18sp"
             android:textColor="#fff"
-            android:fontFamily="@font/product_sans_regular"
             tools:text="Deskripsi Destinasi"/>
 
     </ScrollView>

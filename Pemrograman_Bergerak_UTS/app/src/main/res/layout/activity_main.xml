@@ -22,7 +22,6 @@
         android:text="Welcome!"
         android:textAlignment="center"
         android:textColor="#fff"
-        android:fontFamily="@font/product_sans_regular"
         android:textSize="35sp" />
 
     <LinearLayout
@@ -36,7 +35,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/product_sans_regular"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
             android:text="Destinasi Impian Di Dunia"

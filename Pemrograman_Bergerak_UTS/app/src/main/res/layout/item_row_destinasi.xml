@@ -37,7 +37,6 @@
                 android:textSize="@dimen/text_nameSize"
                 android:textStyle="bold"
                 android:textColor="#fff"
-                android:fontFamily="@font/product_sans_regular"
                 tools:text="Nama Wisata" />
 
             <TextView
@@ -47,7 +46,6 @@
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:textColor="#fff"
-                android:fontFamily="@font/product_sans_regular"
                 tools:text="Deskripsi Tempat" />
 
         </LinearLayout>
