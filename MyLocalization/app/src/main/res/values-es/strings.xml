@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">My Multilanguage App</string>
+
+    <string name="football">Equipo nacional de Indonesia gana contra equipo nacional de Tailandia</string>
+    <string name="goal">Gol de Indonesia anotado por %1$s y %2$s, entonces el puntaje final es %3$d - %4$d por la victoria de Indonesia </string>
+
+    <plurals name="numberOfSongsAvailable">
+        <item quantity="one">%d canción fundar.</item>
+        <item quantity="other">%d canciónes fundar.</item>
+    </plurals>
+
+    <string name="app_homeurl">
+        visita nosotros en <xliff:g id="application_homepage">https://www.polines.ac.id</xliff:g>
+    </string>
+
+    <string name="change_language_settings">Cambiar configuración de idioma</string>
+    <string name="tab_text1">Casa</string>
+    <string name="tab_text2">Perfil</string>
+
+    <!-- Profile Text -->
+    <string name="label_name">Nombre</string>
+    <string name="label_address">Dirección</string>
+    <string name="label_hobby">Hobby</string>
+    <string name="label_quote">Citar</string>
+    <string name="bio_name">Ilham Budi Prasetyo</string>
+    <string name="bio_address">Jl Genuk Sari Atas RT 07 RW 09</string>
+    <string name="bio_hobby">Senderismo y viajar</string>
+    <string name="bio_quote">La lealtad es rara... \nSi la encuentras, mantenla</string>
+</resources>

@@ -12,7 +12,4 @@
 
     <padding
         android:top="50dp"/>
-    <stroke
-        android:color="#fff"
-        android:width="1dp"/>
 </shape>

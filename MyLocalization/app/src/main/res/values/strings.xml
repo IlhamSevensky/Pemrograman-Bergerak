@@ -1,0 +1,30 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">My Multilanguage App</string>
+
+    <string name="football">Indonesia National Team win against Thailand National Team</string>
+    <string name="goal">Goal from Indonesia scored by %1$s and %2$s, so the final score is %3$d - %4$d for Indonesia victory </string>
+
+    <plurals name="numberOfSongsAvailable">
+        <item quantity="one">%d song found</item>
+        <item quantity="other">%d song found</item>
+    </plurals>
+
+    <string name="app_homeurl">
+        Visit us at <xliff:g id="homepage">https://www.polines.ac.id</xliff:g>
+    </string>
+
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="tab_text1">Home</string>
+    <string name="tab_text2">Profile</string>
+
+    <!-- Profile Text -->
+    <string name="label_name">Name</string>
+    <string name="label_address">Address</string>
+    <string name="label_hobby">Hobby</string>
+    <string name="label_quote">Quote</string>
+    <string name="bio_name">Ilham Budi Prasetyo</string>
+    <string name="bio_address">Jl Genuk Sari Atas RT 07 RW 09</string>
+    <string name="bio_hobby">Hiking and Travelling</string>
+    <string name="bio_quote">Lovalty is rare...  \nIf you find it, keep it.</string>
+
+</resources>
