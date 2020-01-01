@@ -26,3 +26,13 @@
 ![Screenshot_13](MyLocalization/Screenshot/Screen%20Shot%202019-11-20%20at%2009.46.33.png)<br>
 ![Screenshot_14](MyLocalization/Screenshot/Screen%20Shot%202019-11-20%20at%2009.47.24.png)
 ![Screenshot_15](MyLocalization/Screenshot/Screen%20Shot%202019-11-20%20at%2009.47.29.png)<br>
+<b>10. MyBackgroundThread</b><br><br>
+![Screenshot_16]( )<br>
+<b>11. MyLoader</b><br><br>
+![Screenshot_17]( )<br>
+<b>12. MyViewModel</b><br><br>
+![Screenshot_18]( )<br>
+<b>13. MyClass</b><br><br>
+![Screenshot_19]( )<br>
+![Screenshot_20]( )<br>
+![Screenshot_21]( )<br>
