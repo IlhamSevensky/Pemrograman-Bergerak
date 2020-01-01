@@ -37,6 +37,6 @@
 ![Screenshot_20](MyClass/Screenshot/Screen%20Shot%202020-01-01%20at%2017.47.43.png )<br>
 ![Screenshot_21](MyClass/Screenshot/Screen%20Shot%202020-01-01%20at%2017.47.59.png)<br>
 <b>13. DaftarBelanja</b><br><br>
-![Screenshot_19]( )<br>
-![Screenshot_20]( )<br>
+![Screenshot_19](DaftarBelanja/Screenshot/Screen%20Shot%202020-01-01%20at%2019.25.39.png )<br>
+![Screenshot_20](DaftarBelanja/Screenshot/Screen%20Shot%202020-01-01%20at%2019.28.39.png )<br>
 
