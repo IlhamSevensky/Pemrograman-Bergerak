@@ -27,12 +27,12 @@
 ![Screenshot_14](MyLocalization/Screenshot/Screen%20Shot%202019-11-20%20at%2009.47.24.png)
 ![Screenshot_15](MyLocalization/Screenshot/Screen%20Shot%202019-11-20%20at%2009.47.29.png)<br>
 <b>10. MyBackgroundThread</b><br><br>
-![Screenshot_16]( )<br>
+![Screenshot_16](BackgroundThread/Screenshot/Screen%20Shot%202020-01-01%20at%2017.36.06.png)<br>
 <b>11. MyLoader</b><br><br>
-![Screenshot_17]( )<br>
+![Screenshot_17](MyLoader/Screenshot/Screen%20Shot%202020-01-01%20at%2017.38.32.png)<br>
 <b>12. MyViewModel</b><br><br>
-![Screenshot_18]( )<br>
+![Screenshot_18](MyViewHolder/Screenshot/Screen%20Shot%202020-01-01%20at%2017.42.16.png)<br>
 <b>13. MyClass</b><br><br>
-![Screenshot_19]( )<br>
-![Screenshot_20]( )<br>
-![Screenshot_21]( )<br>
+![Screenshot_19](MyClass/Screenshot/Screen%20Shot%202020-01-01%20at%2017.46.36.png )<br>
+![Screenshot_20](MyClass/Screenshot/Screen%20Shot%202020-01-01%20at%2017.47.43.png )<br>
+![Screenshot_21](MyClass/Screenshot/Screen%20Shot%202020-01-01%20at%2017.47.59.png)<br>
