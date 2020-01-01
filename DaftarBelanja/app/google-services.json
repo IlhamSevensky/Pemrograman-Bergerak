@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "915327276435-2agas7gvtqef72jjv1ijfu1nnrbvk2bb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilham.daftarbelanja",
+            "certificate_hash": "3c9724036393db7742d223a93a82097304aeb50d"
+          }
+        },
+        {
           "client_id": "915327276435-irfeeu6s6oht913b3ahe5i2o0jtvumlp.apps.googleusercontent.com",
           "client_type": 3
         }
