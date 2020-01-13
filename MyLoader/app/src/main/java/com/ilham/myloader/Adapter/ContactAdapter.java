@@ -37,8 +37,6 @@ public class ContactAdapter extends CursorAdapter {
                 imgUser.setImageURI(Uri.parse(cursor.getString(cursor.getColumnIndexOrThrow(ContactsContract.Contacts.PHOTO_URI))));
             } else {
                 imgUser.setImageResource(R.drawable.ic_person_black_48dp);
-
-
             }
         }
     }
