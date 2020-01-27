@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_green_gradient"
+    android:orientation="vertical"
+    tools:context=".AddEditActivity">
+
+    <View
+        android:id="@+id/statusbar"
+        style="@style/status_bar_transparent"/>
+
+    <TextView
+        android:id="@+id/tv_detail_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:ignore="for save id only, not necessary"/>
+
+    <TextView
+        android:layout_below="@id/statusbar"
+        android:id="@+id/title_add_edit_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/title_welcome"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_add_edit_welcome"
+        android:orientation="vertical"
+        android:background="@drawable/bg_rv_biodata">
+
+        <TextView
+            android:id="@+id/tv_add_edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="@string/dummy_add_edit_title"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"/>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_below="@id/tv_add_edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:animateLayoutChanges="true"
+                android:paddingRight="10dp">
+
+                <RadioGroup
+                    android:id="@+id/rg_gender"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rb_male"
+                        android:layout_width="80dp"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:layout_height="80dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/custom_btn_radio_gender_male"/>
+
+                    <RadioButton
+                        android:id="@+id/rb_female"
+                        android:layout_width="80dp"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/custom_btn_radio_gender_female"/>
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tv_error_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="@string/text_error_gender"
+                    android:textColor="@android:color/holo_red_light"
+                    android:layout_below="@id/rg_gender"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="gone"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_name"
+                    android:layout_below="@id/tv_error_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_nama"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:maxLines="1"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_birthday"
+                    android:layout_below="@id/input_name"
+                    android:layout_toStartOf="@id/btn_date_picker"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_birthday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/label_birthdate"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:textColor="#616161"
+                        android:focusableInTouchMode="false"
+                        android:focusable="false"
+                        android:enabled="false" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/btn_date_picker"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/input_name"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/ic_calendar"
+                    android:foreground="@drawable/custom_ripple_card"
+                    android:backgroundTint="@android:color/transparent"
+                    android:contentDescription="@string/desc_date_picker"/>
+
+                <TextView
+                    android:id="@+id/tv_error_birtdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/text_error_birthdate"
+                    android:textColor="@android:color/holo_red_light"
+                    android:layout_below="@id/input_birthday"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="gone"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_age"
+                    android:layout_below="@id/tv_error_birtdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_age"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/label_age"
+                        android:enabled="false"
+                        android:textColor="#616161"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:inputType="numberDecimal"
+                        android:lines="1"
+                        android:maxLines="1"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/input_address"
+                    android:layout_below="@id/input_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/label_address"
+                        android:inputType="textMultiLine"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_spinner_major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/input_address"
+                    android:text="@string/label_major"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="12sp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"/>
+
+                <FrameLayout
+                    android:id="@+id/frame_spinner_major"
+                    android:layout_below="@+id/tv_spinner_major"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_spinner"
+                    android:layout_marginBottom="10dp">
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_major"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog"/>
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_spinner_study_program"
+                    android:layout_below="@id/frame_spinner_major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_study_program"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="12sp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"/>
+
+                <FrameLayout
+                    android:id="@+id/frame_spinner_study_program"
+                    android:layout_below="@id/tv_spinner_study_program"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_spinner">
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_study_program"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog"/>
+
+                </FrameLayout>
+
+                <View
+                    android:id="@+id/divider_add_edit"
+                    android:layout_below="@id/frame_spinner_study_program"
+                    style="@style/horizontal_divider"/>
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_add_edit"
+                    android:layout_below="@id/divider_add_edit"
+                    android:layout_toStartOf="@id/center_button"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/btn_text_add"/>
+
+                <View
+                    android:id="@+id/center_button"
+                    android:layout_below="@id/divider_add_edit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_back"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@id/center_button"
+                    android:layout_below="@id/divider_add_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:text="@string/btn_text_back"/>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

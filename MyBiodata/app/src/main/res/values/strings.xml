@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Biodata App</string>
+
+    <!-- Dummy String -->
+    <string name="dummy_detail_age">19</string>
+    <string name="dummy_detail_address">Jl. Genuksari Atas RT 07 RW 09 Kota Semarang</string>
+    <string name="dummy_detail_major">Teknik Elektro</string>
+    <string name="dummy_detail_study">Teknik Informatika</string>
+    <string name="dummy_add_edit_title">Add / Edit Biodata</string>
+    <string name="dummy_detail_birthdate">18 Agustus 2000</string>
+
+    <!-- Button Text String -->
+    <string name="btn_text_add">add</string>
+    <string name="btn_text_back">back</string>
+    <string name="btn_text_update">update</string>
+    <string name="btn_text_edit">edit</string>
+    <string name="btn_text_delete">delete</string>
+    <string name="btn_text_ok">OK</string>
+    <string name="btn_text_cancel">Cancel</string>
+
+    <!-- EditText Hint/Label Text String -->
+    <string name="title_welcome">Welcome</string>
+    <string name="title_add">Add Biodata</string>
+    <string name="title_edit">Edit Biodata</string>
+    <string name="title_list_biodata">List Biodata</string>
+    <string name="title_profile">Profile</string>
+    <string name="hint_nama">Name</string>
+    <string name="label_address">Address</string>
+    <string name="label_age">Age</string>
+    <string name="label_major">Major</string>
+    <string name="label_study_program">Study Program</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_change_language">Change Language</string>
+    <string name="colon">:</string>
+    <string name="label_birthdate">Birthdate</string>
+
+    <!-- Error/Success/Warning Messages Text String -->
+    <string name="message_success_delete">Data Successfully Deleted</string>
+    <string name="message_success_update">Data Successfully Updated</string>
+    <string name="message_success_add">Data Successfully Added</string>
+    <string name="text_error_gender">Please choose gender&#8230;</string>
+    <string name="text_error_birthdate">Please select your birthdate&#8230;</string>
+    <string name="text_delete_confirm">Are you sure want to delete?</string>
+    <string name="text_error_date">Birthdate is not valid</string>
+    <string name="text_field_error">This field cannot be empty</string>
+    <string name="text_error_gender_not_valid">Gender is no choosed</string>
+    <string name="text_error_activity">Activity layout not found</string>
+
+    <!-- Status for Activity Description Text String -->
+    <string name="status_edit">status_edit</string>
+    <string name="status_delete">status_delete</string>
+    <string name="status_add">status_add</string>
+    <string name="status_error">There is no such action</string>
+
+    <!-- Content Description Text String -->
+    <string name="desc_image_successfull">Image Successful</string>
+    <string name="desc_confirm_info">Confirmation Info</string>
+    <string name="desc_image_logo">Image Logo</string>
+    <string name="desc_date_picker">Date Picker</string>
+
+    <!-- Radio Button Gender Text String -->
+    <string name="gender_male">Laki - laki</string>
+    <string name="gender_female">Perempuan</string>
+
+    <!-- Profile Text String -->
+    <string name="profile_name_1">Ilham Budi Prasetyo</string>
+    <string name="profile_name_2">Tiffani Afiollalia Lorenza</string>
+    <string name="profile_email_1">budip.ilham@gmail.com</string>
+    <string name="profile_email_2">tiffaniafiollalialorenza@gmail.com</string>
+    <string name="profile_nim_1">3.34.18.0.12</string>
+    <string name="profile_nim_2">3.34.18.0.22</string>
+    <string name="profile_class">IK-2A</string>
+    <string name="profile_institution">Politeknik Negeri Semarang</string>
+
+
+    <!-- List Major Text String -->
+    <string-array name="list_major">
+        <item>Teknik Mesin</item>
+        <item>Teknik Elektro</item>
+        <item>Teknik Sipil</item>
+        <item>Administrasi Bisnis</item>
+        <item>Akuntansi</item>
+    </string-array>
+
+    <!-- List Study Program String -->
+    <string-array name="list_study_program_mesin">
+        <item>Teknik Mesin (D3)</item>
+        <item>Teknik Mesin Produksi dan Perawatan (S.Tr)</item>
+        <item>Teknologi Rekayasa Pembangkit Energi (S.Tr)</item>
+        <item>Teknik Konversi Energi (D3)</item>
+    </string-array>
+
+    <string-array name="list_study_program_elektro">
+        <item>Teknik Telekomunikasi (M.Tr)</item>
+        <item>Teknik Telekomunikasi (S.Tr)</item>
+        <item>Teknik Telekomunikasi (D3)</item>
+        <item>Teknik Listrik (D3)</item>
+        <item>Teknik Elektronika (D3)</item>
+        <item>Teknik Informatika (D3)</item>
+    </string-array>
+
+    <string-array name="list_study_program_sipil">
+        <item>Teknik Perawatan dan Perbaikan Gedung (S.Tr)</item>
+        <item>Perancangan Jalan dan Jembatan (Jalan Rel) (S.Tr)</item>
+        <item>Konstruksi Gedung (D3)</item>
+        <item>Konstruksi Sipil (D3)</item>
+    </string-array>
+
+    <string-array name="list_study_program_ab">
+        <item>Managemen Bisnis Internasional (S.Tr)</item>
+        <item>Administrasi Bisnis Terapan (S.Tr)</item>
+        <item>Administrasi Bisnis (D3)</item>
+        <item>Managemen Pemasaran (D3)</item>
+    </string-array>
+
+    <string-array name="list_study_program_ak">
+        <item>Komputerisasi Akuntansi (S.Tr)</item>
+        <item>Perbankan Syariah (S.Tr)</item>
+        <item>Analisis Keuangan (S.Tr)</item>
+        <item>Akuntansi Managerial (S.Tr)</item>
+        <item>Akuntansi (D3)</item>
+        <item>Keuangan dan Perbankan (D3)</item>
+    </string-array>
+
+</resources>
